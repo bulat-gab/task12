@@ -14,10 +14,8 @@ namespace XmlManager.Tests
     {
         private FileController _fileController = new FileController();
 
-
         [Test]
-
-        public void ReturnTrue()
+        public void CorrectlyCheckFileName()
         {
             var str1 = "ФайлОдин_1_asd";
             var str2 = "ФаО2ин_14_avsd";
